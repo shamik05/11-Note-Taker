@@ -1,7 +1,7 @@
 # Homework-11-Express-Note-Taker
 ![GitHub License](https://img.shields.io/badge/License-None-blue)
 ## Description
-A CLI application that generates a roster of employee cards. Currently, it builds a roster of one manager and indefinite number of engineers and interns using user prompts. The backend has a focus on object oriented programming to create an assortment of subclasses extending from the main employee class. Cards can easily be modified to adjust roles and fields for each employee. It was built on node using inquirer and the filesystem modules.
+This is a browser-based note taking application that let's you organize your thoughts. Users have the freedom to write, save and delete their notes. The front end consists of html,css and javascript. The backend utilizes node and the express framework to handle routing and any requests/responses. The notes are saved as json within the directory and are uniquely identified using the UID framework. The application is hosted on Heroku and can be found [here]().
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
@@ -19,10 +19,10 @@ Download or clone the repo to a working directory. Extract its contents and run
 ```
 node app.js OR nodemon app.js
 ```
-in any command line interface. Answer the prompts as appropriate and the final product is a HTML page in the output directory.
+in any command line interface. Navigate to localhost:8080 on any browser to view the app.
 
 ### Demo
-![Demo](Assets/demo.gif)
+![Demo](demo.gif)
 
 ## License 
 The project is currently licenseless.
